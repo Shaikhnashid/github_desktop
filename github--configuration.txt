@@ -1,0 +1,16 @@
+for desktop github:https://desktop.github.com/download/
+for Git:https://git-scm.com/download/win
+
+global configuration 
+
+git config --global user.name "Shaikh Nasid"
+git config --global user.email "nashidshaikh06@gmail.com"
+
+or create a new repository on the command line
+echo "# github_desktop" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Shaikhnashid/github_desktop.git
+git push -u origin main
